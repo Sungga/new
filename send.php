@@ -27,7 +27,7 @@
 
 <?php
 // Thông tin kết nối
-$serverName = "thi.database.windows.net";
+$serverName = "comp.database.windows.net";
 $connectionOptions = array(
     "Database" => "sinhvien",
     "Uid" => "thi",
