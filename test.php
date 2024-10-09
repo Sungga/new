@@ -1,10 +1,10 @@
 <?php
 // Thông tin kết nối
-$serverName = "your_server_name";
+$serverName = "comp.database.windows.net";
 $connectionOptions = array(
-    "Database" => "your_database_name",
-    "Uid" => "your_username",
-    "PWD" => "your_password"
+    "Database" => "sinhvien",
+    "Uid" => "vanh",
+    "PWD" => "@A123456"
 );
 
 // Kết nối tới SQL Server
