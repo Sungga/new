@@ -60,7 +60,7 @@
                 </div>
                 <div class="messInput">
                     <input type="text" id="messageInput" name="message" class="message">
-                    <button " name="send" id="sendButton">Send</button>
+                    <button  name="send" id="sendButton">Send</button>
                 </div>
             </div>
         </div>
