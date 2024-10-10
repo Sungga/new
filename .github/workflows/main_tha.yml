@@ -63,4 +63,4 @@ jobs:
           app-name: 'tha'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1AAF664EA8A940A0BEDA3D18D5062B25 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4B6477980BBE4E7C8E81EE16F1667267 }}
