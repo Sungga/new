@@ -60,14 +60,12 @@
                 </div>
                 <div class="messInput">
                     <input type="text" id="messageInput" name="message" class="message">
-                    <button onclick="sendMessage()" name="send" id="sendButton">Send</button>
+                    <button " name="send" id="sendButton">Send</button>
                 </div>
             </div>
         </div>
     </div>
     <div id="chat"></div>
-    <script src="./main.js"></script>
-    <script src="./send.js"></script>
 </body>
 </html>
 
