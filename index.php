@@ -47,7 +47,7 @@
                 <h1>CHAT WITH ME</h1>
                 <div class="blockChat">
                     <?php foreach($rows as $item) { ?>
-                        <?php if($item['user'] == 0) { ?>
+                        <?php if($item['users'] == 0) { ?>
                             <div class="chatContent left">
                                 <p><?php echo htmlspecialchars($item['message'], ENT_QUOTES, 'UTF-8'); ?></p>
                             </div>
