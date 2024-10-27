@@ -24,7 +24,7 @@ function sendMessage() {
                 }, 100);
             }
         };
-        xhr.send("message=" + encodeURIComponent(message) + "&users=" + encodeURIComponent(user));
+        xhr.send("message=" + encodeURIComponent(message) + "&users=" + encodeURIComponent(users));
     } else {
         alert('Please enter a message.');
     }
