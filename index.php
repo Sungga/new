@@ -2,9 +2,9 @@
     // Thông tin kết nối
     $serverName = "comp.database.windows.net"; // Tên server, ví dụ: "localhost" hoặc "192.168.1.1"
     $connectionOptions = array(
-        "Database" => "sinhvien", // Tên database
+        "Database" => "vanhh", // Tên database
         "Uid" => "vanh",           // Tên người dùng
-        "PWD" => "@A123456"       // Mật khẩu
+        "PWD" => "Vietanhb33@"       // Mật khẩu
     );
 
     // Kết nối với SQL Server
