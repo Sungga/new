@@ -8,7 +8,7 @@ function sendMessage() {
     var message = document.querySelector(".message").value;
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const user = urlParams.get('user') || 0;
+    const user = urlParams.get('users') || 0;
     
     if (message !== '') {
         var xhr = new XMLHttpRequest();
@@ -24,7 +24,7 @@ function sendMessage() {
                 }, 100);
             }
         };
-        xhr.send("message=" + encodeURIComponent(message) + "&user=" + encodeURIComponent(user));
+        xhr.send("message=" + encodeURIComponent(message) + "&users=" + encodeURIComponent(user));
     } else {
         alert('Please enter a message.');
     }
