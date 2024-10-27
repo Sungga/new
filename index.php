@@ -14,7 +14,7 @@
     }
 
     // Câu truy vấn
-    $query = "SELECT * FROM tbl_message";
+    $query = "SELECT * FROM chat_with_me";
     $stmt = sqlsrv_query($db, $query);
     if ($stmt === false) {
         die(print_r(sqlsrv_errors(), true));
