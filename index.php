@@ -1,6 +1,6 @@
 <?php 
     // Thông tin kết nối
-    $serverName = "comp.database.windows.net"; // Tên server, ví dụ: "localhost" hoặc "192.168.1.1"
+    $serverName = "vanhh.database.windows.net"; // Tên server, ví dụ: "localhost" hoặc "192.168.1.1"
     $connectionOptions = array(
         "Database" => "vanhh", // Tên database
         "Uid" => "vanh",           // Tên người dùng
