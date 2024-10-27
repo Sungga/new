@@ -12,7 +12,7 @@
 ?>
 
 <?php foreach($rows as $item) { ?>
-    <?php if($item['user'] == 0) { ?>
+    <?php if($item['users'] == 0) { ?>
         <div class="chatContent left">
             <p><?php echo $item['message']; ?></p>
         </div>
